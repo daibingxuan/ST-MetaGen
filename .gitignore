@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results and logs
+results/
+val_results/
+rand10_vis_output/
+
+# Large data files
+*.npy
+*.npz
+*.mat
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Except small necessary ones
+!shape_generation_code/prop_norm_params.npz
+!shape_generation_code/sfs_012_noperm_final_flat_densfilt.mat
